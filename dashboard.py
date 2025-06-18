@@ -209,5 +209,8 @@ def update_graphs(estado, tipo_acidente):
     return fig_mapa, fig_tipo, fig_dia, fig_correlacao
 
 # Rodar o servidor Dash
-if __name__ == '__main__':
-    app.run(debug=True, host='127.0.0.1', port=8050)
+import os
+
+port = int(os.environ.get('PORT', 8050))
+app.run_server(host='0.0.0.0', port=port)
+
