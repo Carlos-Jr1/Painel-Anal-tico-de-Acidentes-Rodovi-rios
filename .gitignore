@@ -193,5 +193,22 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
-upload/
+# Ignorar ambientes virtuais
 venv/
+.env/
+__pycache__/
+*.pyc
+
+# Ignorar arquivos de dados grandes
+upload/
+*.csv
+*.exe
+
+# Ignorar arquivos temporários
+*.log
+*.tmp
+*.bak
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
