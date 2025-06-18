@@ -1,0 +1,26 @@
+ pandas
+  dash 
+  plotly 
+  dash-bootstrap-components 
+  kaleido
+   reportlab
+   streamlit
+pandas
+plotly
+scikit-learn
+requests
+ollama
+numpy
+matplotlib
+seaborn
+requests
+tqdm
+jupyter
+IPython
+pathlib
+bcrypt
+python-dotenv
+uvicorn
+starlette
+itsdangerous
+authlib
